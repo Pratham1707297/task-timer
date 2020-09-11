@@ -1,5 +1,5 @@
 {
-  "name": "task-timer",
+  "name": "task-timer-api",
   "version": "1.0.0",
   "description": "Task timer to delete task after certain period of time",
   "main": "index.js",
