@@ -3,7 +3,7 @@ const config = require("config");
 
 const db_name = config.get("Secrets.db_name");
 const db_pass = config.get("Secrets.db_pass");
-const url = `mongo "mongodb+srv://pratham.sakle.mongodb.net/<dbname>" --username pratham007`;
+const url = `mongodb+srv://pratham007:${db_pass}@pratham.sakle.mongodb.net/<dbname>?retryWrites=true&w=majority`;
 
 module.exports = () => {
   mongoose
